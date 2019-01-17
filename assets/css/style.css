@@ -1,3 +1,9 @@
-button .navbar-toggler {
-    background-color: black;
+a.navbar-brand img{
+    max-height: 150px;
+    margin-top: -30px;
+    margin-bottom: -150px;
+}
+
+.nav-item {
+    padding-left: 10px;
 }
