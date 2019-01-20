@@ -109,6 +109,18 @@ tbody > tr > th {
     font-weight: unset !important;
 }
 
+#media {
+    min-height: 700px;
+    width: auto;
+    background-color: #f8e6c8;
+    color: #34375a;
+    padding-bottom: 30px;
+}
+
+.audio-clip {
+    margin: 10px 0px;
+}
+
 /* -------- MEDIA QUERIES -----------*/
 
 @media(max-width: 767px) {

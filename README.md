@@ -16,6 +16,9 @@ Progress Notes:
 
     Google searched for guitar image with reuse rights and found: https://pixabay.com/en/guitar-music-rock-2024189/
     Also from the same search result: https://commons.wikimedia.org/wiki/File:Gibson_ES-175.png
+    Found Gigs section background at: https://commons.wikimedia.org/wiki/File:The_Monkees.jpg
+
+    VIDEO - using embeds from Youtube directly 
 
 
 # TO DO SECTION
