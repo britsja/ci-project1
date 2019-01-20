@@ -15,6 +15,8 @@ a.nav-link {
     font-weight: bolder;
 }
 
+
+
 /* Style the background image of the home section */
 #home {
     margin-top: 40px;
@@ -64,4 +66,77 @@ a.list-group-item.list-group-item-action.active {
 
 #themonkees > p {
     margin: 5px 100px;
+}
+
+.custom-card-image {
+    margin-top: -50px;
+}
+
+/* -------- MEDIA QUERIES -----------*/
+
+@media(max-width: 767px) {
+    img#guitar {
+        margin-top: 10px;
+        height: 100px;
+        
+    }
+
+    .band-news {
+        margin: 10px;
+    }
+
+    a.navbar-brand img{
+        max-height: 100px;
+        margin-top: -20px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+      }
+      .navbar-nav > li {
+        float: none;
+        display: inline-block;
+      }
+      .navbar-toggler:not(:disabled) {
+        float: right !important;
+      }
+
+      .lead {
+          font-size: 0.9rem;
+      }
+
+      .band-news {
+          margin-top: 30px;
+      }
+      
+      #home {
+          min-height: 600px;
+      }
+
+      #home .dark-overlay {
+          min-height: 600px;
+      }
+
+      .custom-card-image {
+          margin-top: -30px;
+          width: 50% !important;
+      }
+
+      .custom-card {
+          height: 170px !important;
+      }
+
+      .card {
+          margin-bottom: 20px !important;
+          height: auto !important;
+      }
+      
+      .custom-card-h3 {
+          margin-top: -1rem !important;
+      }
 }
