@@ -124,7 +124,7 @@ a.list-group-item.list-group-item-action.active {
 
       .custom-card-image {
           margin-top: -30px;
-          width: 50% !important;
+          width: 30% !important;
       }
 
       .custom-card {
@@ -139,4 +139,19 @@ a.list-group-item.list-group-item-action.active {
       .custom-card-h3 {
           margin-top: -1rem !important;
       }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .card {
+        margin-bottom: 40px !important;
+        height: auto !important;
+    }
+    .custom-card-image {
+        margin-top: -30px;
+        width: 50% !important;
+    }
+
+    .custom-card-h3 {
+        margin-top: -1rem !important;
+    }
 }
