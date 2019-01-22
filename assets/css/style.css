@@ -22,7 +22,7 @@ a.nav-link {
     margin-top: 40px;
     position: relative;
     min-height: 700px;
-    background: url('/assets/img/monkees-bg.jpg');
+    background: url('../../assets/img/monkees-bg.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +76,7 @@ a.list-group-item.list-group-item-action.active {
 #gigs {
     position: relative;
     min-height: 700px;
-    background: url('/assets/img/The_Monkees_sitting.jpg');
+    background: url('../../assets/img/The_Monkees_sitting.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +124,7 @@ tbody > tr > th {
 #contact {
     position: relative;
     min-height: 700px;
-    background: url('/assets/img/The_Monkees_May_1967.jpg');
+    background: url('../../assets/img/The_Monkees_May_1967.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
