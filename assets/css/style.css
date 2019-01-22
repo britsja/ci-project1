@@ -51,17 +51,18 @@ img#guitar {
 }
 
 .social-media {
+    padding: 10px;
     margin-top: 80px;
     background-color: rgba(0,0,0,0.6);
     border-radius: 25px;
 }
 
 .social-media i {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #f9e8cb;
 }
 
-.social-media-item {
+#home .social-media-item {
     margin-top: 40px;
 }
 
@@ -160,13 +161,25 @@ tbody > tr > th {
 
 .contact-form {
     background-color: #f9e8cb;
+    background-color: rgba(249,232,203,0.5);
     padding: 20px;
     border-radius: 50px;
 }
+/* Footer Section */
+
+#footer {
+    background-color: black;
+    color:#f9e8cb;
+}
+
+#footer i {
+    color:#f9e8cb;
+}
+
 
 /* -------- MEDIA QUERIES -----------*/
-/* Smaller Screens up to 767px */
-@media(max-width: 767px) {
+/* Screens below 576px */
+@media(max-width: 575px) {
     /* Navbar */
 
     a.navbar-brand img{
@@ -194,16 +207,16 @@ tbody > tr > th {
 
     /* Home Section */
     #home {
-        min-height: 850px;
+        min-height: 700px;
     }
 
     #home .dark-overlay {
-        min-height: 850px;
+        min-height: 700px;
     }
 
     img#guitar {
         margin-top: 10px;
-        height: 100px;   
+        height: 75px;   
     }
 
     .band-news {
@@ -214,11 +227,11 @@ tbody > tr > th {
         margin-top: 5px;
         background-color: rgba(0,0,0,0.6);
         border-radius: 5px;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
     
     .social-media i {
-        font-size: 2rem;
+        font-size: 3rem;
         color: #f9e8cb;
     }
     
@@ -255,16 +268,152 @@ tbody > tr > th {
  
     /* Gigs Section */
     #gigs {
-        min-height: 920px;
+        min-height: 600px;
     }
     
     #gigs .dark-overlay {
-        min-height: 920px;
+        min-height: 600px;
+    }
+    #gigs .mt-5 {
+        margin-top: 10px !important;
     }
     /* Media Section */
 
     #media > .pt-5 {
+        padding-top: 20px !important;
+    }
+
+    #media > div > div.row.text-center.pt-5 {
         padding-top: 10px !important;
+    }
+
+    #media h3 {
+        margin-bottom: 20px;
+    }
+
+    .audio-clip {
+        margin: 0px;
+    }
+
+    .embed-responsive {
+        margin: 10px 0px;
+    }
+
+    /* Contact Section */
+    #contact .pt-5 {
+        padding-top: 10px !important;
+    }
+
+    #contact h1 {
+        padding-bottom: 10px !important;
+    }
+
+    /* General */
+    .lead {
+        font-size: 0.9rem;
+    }
+}
+
+/* Screens up to 767px */
+@media(min-width: 576px) and (max-width: 767px) {
+    /* Navbar */
+
+    a.navbar-brand img{
+        max-height: 100px;
+        margin-top: -20px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-nav > li {
+    float: none;
+    display: inline-block;
+    }
+
+    .navbar-toggler:not(:disabled) {
+    float: right !important;
+    }
+
+    /* Home Section */
+    #home {
+        min-height: 700px;
+    }
+
+    #home .dark-overlay {
+        min-height: 700px;
+    }
+
+    img#guitar {
+        margin-top: 10px;
+        height: 100px;   
+    }
+
+    .band-news {
+        margin: 30px 10px 10px 10px;
+    }
+
+    .social-media {
+        margin-top: 5px;
+        background-color: rgba(0,0,0,0.6);
+        border-radius: 5px;
+        padding-bottom: 20px;
+    }
+    
+    .social-media i {
+        font-size: 3rem;
+        color: #f9e8cb;
+    }
+    
+    .social-media-item {
+        margin-top: 10px;
+    }
+
+    /* The Monkees Section */
+    #themonkees {
+        padding-top: 10px !important;
+    }
+
+    #themonkees > div > div.row.mt-5 {
+        margin-top: 5px !important;
+    }
+
+    .custom-card-image {
+        margin-top: -30px;
+        width: 30% !important;
+    }
+
+    .custom-card {
+        height: 170px !important;
+    }
+
+    .card {
+        margin-bottom: 20px !important;
+        height: auto !important;
+    }
+    
+    .custom-card-h3 {
+        margin-top: -1rem !important;
+    }
+ 
+    /* Gigs Section */
+    #gigs {
+        min-height: 700px;
+    }
+    
+    #gigs .dark-overlay {
+        min-height: 700px;
+    }
+    /* Media Section */
+
+    #media > .pt-5 {
+        padding-top: 20px !important;
     }
 
     #media > div > div.row.text-center.pt-5 {
@@ -321,6 +470,6 @@ tbody > tr > th {
     .embed-responsive {
         margin-top: 10px;
     }
-    
+
     /* Comtacts Section */
 }
