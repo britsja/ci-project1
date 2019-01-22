@@ -20,6 +20,10 @@ Progress Notes:
 
     VIDEO - using embeds from Youtube directly 
 
+    Contact section background image also googled for reuse rights: https://cs.m.wikipedia.org/wiki/Soubor:The_Monkees_May_1967.jpg
+
+    
+
 
 # TO DO SECTION
 
