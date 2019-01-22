@@ -1,3 +1,4 @@
+/* Navbar */
 a.navbar-brand img{
     max-height: 150px;
     margin-top: -10px;
@@ -15,9 +16,7 @@ a.nav-link {
     font-weight: bolder;
 }
 
-
-
-/* Style the background image of the home section */
+/* Home Section */
 #home {
     margin-top: 40px;
     position: relative;
@@ -38,13 +37,6 @@ a.nav-link {
     width: 100%;
     background: rgba(0,0,0,0.8);
     
-}
-
-#themonkees {
-    min-height: 700px;
-    width: auto;
-    background-color: #f8e6c8;
-    color: #34375a;
 }
 
 img#guitar {
@@ -73,13 +65,12 @@ img#guitar {
     margin-top: 40px;
 }
 
-
-
-a.list-group-item.list-group-item-action.active {
-    color: white;
-    font-weight: bolder;
-    border-color: #f8e6c7;
-    background-color: rgba(0,0,0,0.1);
+/* The Monkees Section */
+#themonkees {
+    min-height: 700px;
+    width: auto;
+    background-color: #f8e6c8;
+    color: #34375a;
 }
 
 #themonkees > p {
@@ -90,6 +81,7 @@ a.list-group-item.list-group-item-action.active {
     margin-top: -50px;
 }
 
+/* Gigs Section */
 #gigs {
     position: relative;
     min-height: 700px;
@@ -111,12 +103,17 @@ a.list-group-item.list-group-item-action.active {
     
 }
 
+a.list-group-item.list-group-item-action.active {
+    color: white;
+    font-weight: bolder;
+    border-color: #f8e6c7;
+    background-color: rgba(0,0,0,0.1);
+}
+
 .table-title {
     color: #f8e6c7;
     
 }
-
-
 
 thead > tr > th {
     font-size: 1.1rem;
@@ -126,6 +123,7 @@ tbody > tr > th {
     font-weight: unset !important;
 }
 
+/* Media Section */
 #media {
     min-height: 700px;
     width: auto;
@@ -142,6 +140,7 @@ tbody > tr > th {
     margin-top: 15px;
 }
 
+/* Contacts Section */
 #contact {
     position: relative;
     min-height: 700px;
@@ -165,22 +164,10 @@ tbody > tr > th {
     border-radius: 50px;
 }
 
-
-
-
-
 /* -------- MEDIA QUERIES -----------*/
-
+/* Smaller Screens up to 767px */
 @media(max-width: 767px) {
-    img#guitar {
-        margin-top: 10px;
-        height: 100px;
-        
-    }
-
-    .band-news {
-        margin: 10px;
-    }
+    /* Navbar */
 
     a.navbar-brand img{
         max-height: 100px;
@@ -195,22 +182,17 @@ tbody > tr > th {
         width: 100%;
         text-align: center;
     }
+
     .navbar-nav > li {
     float: none;
     display: inline-block;
     }
+
     .navbar-toggler:not(:disabled) {
     float: right !important;
     }
 
-    .lead {
-        font-size: 0.9rem;
-    }
-
-    .band-news {
-        margin-top: 30px;
-    }
-    
+    /* Home Section */
     #home {
         min-height: 850px;
     }
@@ -219,14 +201,67 @@ tbody > tr > th {
         min-height: 850px;
     }
 
+    img#guitar {
+        margin-top: 10px;
+        height: 100px;   
+    }
+
+    .band-news {
+        margin: 30px 10px 10px 10px;
+    }
+
+    .social-media {
+        margin-top: 5px;
+        background-color: rgba(0,0,0,0.6);
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .social-media i {
+        font-size: 2rem;
+        color: #f9e8cb;
+    }
+    
+    .social-media-item {
+        margin-top: 10px;
+    }
+
+    /* The Monkees Section */
+    #themonkees {
+        padding-top: 10px !important;
+    }
+
+    #themonkees > div > div.row.mt-5 {
+        margin-top: 5px !important;
+    }
+
+    .custom-card-image {
+        margin-top: -30px;
+        width: 30% !important;
+    }
+
+    .custom-card {
+        height: 170px !important;
+    }
+
+    .card {
+        margin-bottom: 20px !important;
+        height: auto !important;
+    }
+    
+    .custom-card-h3 {
+        margin-top: -1rem !important;
+    }
+ 
+    /* Gigs Section */
     #gigs {
         min-height: 920px;
     }
     
     #gigs .dark-overlay {
         min-height: 920px;
-        
     }
+    /* Media Section */
 
     #media > .pt-5 {
         padding-top: 10px !important;
@@ -248,50 +283,26 @@ tbody > tr > th {
         margin: 10px 0px;
     }
 
-    .custom-card-image {
-        margin-top: -30px;
-        width: 30% !important;
-    }
-
-    .custom-card {
-        height: 170px !important;
-    }
-
-    .card {
-        margin-bottom: 20px !important;
-        height: auto !important;
-    }
-    
-    .custom-card-h3 {
-        margin-top: -1rem !important;
-    }
-
-    .social-media {
-        margin-top: 5px;
-        background-color: rgba(0,0,0,0.6);
-        border-radius: 5px;
-        margin-bottom: 20px;
-    }
-    
-    .social-media i {
-        font-size: 2rem;
-        color: #f9e8cb;
-    }
-    
-    .social-media-item {
-        margin-top: 10px;
-    }
-
-    #themonkees {
-        padding-top: 10px !important;
-    }
-
-    #themonkees > div > div.row.mt-5 {
-        margin-top: 5px !important;
+    /* Contact Section */
+    /* General */
+    .lead {
+        font-size: 0.9rem;
     }
 }
-
+/* Medium sized screens between 768px and 992px*/
 @media (min-width: 768px) and (max-width: 992px) {
+    /* Navbar */
+    /* Home Section */
+    .social-media i {
+        font-size: 3rem;
+        color: #f9e8cb;
+    }
+
+    #home h5 {
+        font-size: 0.9rem;
+    }
+
+    /* The Monkees Section */
     .card {
         margin-bottom: 40px !important;
         height: auto !important;
@@ -305,16 +316,11 @@ tbody > tr > th {
         margin-top: -1rem !important;
     }
 
-    .social-media i {
-        font-size: 3rem;
-        color: #f9e8cb;
-    }
-
-    #home h5 {
-        font-size: 0.9rem;
-    }
-
+    /* Gigs Section */
+    /* Media Section */
     .embed-responsive {
         margin-top: 10px;
     }
+    
+    /* Comtacts Section */
 }
