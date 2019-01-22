@@ -54,15 +54,32 @@ img#guitar {
 }
 
 .band-news {
-    margin-top: 100px;
-    margin-right: 200px;
+    margin-top: 150px;
+    background-color:rgba(0,0,0,0.6);
 }
+
+.social-media {
+    margin-top: 80px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 25px;
+}
+
+.social-media i {
+    font-size: 5rem;
+    color: #f9e8cb;
+}
+
+.social-media-item {
+    margin-top: 40px;
+}
+
+
 
 a.list-group-item.list-group-item-action.active {
     color: white;
     font-weight: bolder;
     border-color: #f8e6c7;
-    background-color: #122049;
+    background-color: rgba(0,0,0,0.1);
 }
 
 #themonkees > p {
@@ -144,10 +161,7 @@ tbody > tr > th {
     border-radius: 50px;
 }
 
-.social-media i {
-    font-size: 2em;
-    color: #f9e8cb;
-}
+
 
 /* -------- MEDIA QUERIES -----------*/
 
