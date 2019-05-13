@@ -54,9 +54,9 @@ The website is a single page site with different sections that are accessible fr
 
 ### Features Left to Implement
 
-Contact Form - Connect contact form to a mailing system to generate emails to the band from the contact form
-Social Media - Social Media icons should direct users to the correct social media URL for the band
-Tour Tickets - Under the upcoming Gigs, the ticket links need to point to the correct ticket booking page.
+- Contact Form - Connect contact form to a mailing system to generate emails to the band from the contact form
+- Social Media - Social Media icons should direct users to the correct social media URL for the band
+- Tour Tickets - Under the upcoming Gigs, the ticket links need to point to the correct ticket booking page.
 
 #
 
@@ -82,8 +82,8 @@ Manual website testing was conducted to ensure the functionality of the site and
 Testing conducted were as follows:
 
 1. Menu items tested - going to each section as specified
-2. Monkees News - Clicking on a news entry takes you to the section
-3. The social media icons take you to the social media site but not to the band page on it yet.
+2. Monkees News - Clicking on a news entry takes you to the corresponding section
+3. The social media icons take you to the social media site but not to the band page on the social media site yet.
 
 3. Browsers:
     - Tested site on both Chrome and Firefox web browsers
@@ -108,19 +108,17 @@ To deploy the project the following steps were taken:
 - The GitHub Pages section will then display the URL to the hosted website
 
 To clone this project, you can use the following command:
-    - ```git clone https://github.com/britsja/Interactive-Frontend-Development-Milestone-Project.git```
+- ```git clone https://github.com/britsja/Interactive-Frontend-Development-Milestone-Project.git```
 
 ### Credits
 
 **Content**
-- The Json data used on this website was taken with permission from an active Zendesk being used by an IT support company. The data was sanitized to remove any 
-  personal information. The data was extracted using the Zendesk API and JSON data needed to be combined from multiple exported files. 
+- Background information of the band was found on the wiki page and inspired the band information on this website: https://en.wikipedia.org/wiki/The_Monkees
 
 **Media** 
-- No images and other media used for this project
-
-**Code**
-- Ideas on how to reset the chart data was taken from: https://steemit.com/utopian-io/@faad/tutorial-18-dive-into-dc-js-a-javascript-library-data-count-and-reset-last-tutorial
+- Some images were sourced by searching google for images with reuse rights
+- Majority of the media (including the audio) was taken from the Code Institute repository: https://github.com/Code-Institute-Org/project-assets
+- Video content is directly embedded from Youtube 
 
 **Inspiration**
 - Code Institute for providing the knowledge and challenge in creating this project.
